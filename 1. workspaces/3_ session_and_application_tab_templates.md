@@ -2,31 +2,10 @@
 
 ## What are Session and Application Tabs?
 
-While working with a customer on a case, an agent may want access to additional
-pages containing context not available within the case/activity record.
-
-In addition, an agent may need to work on multiple customers/issues at once. For
-each customer/issue the agent may want a separate set of context pages.
-
-Without an in app tabbing feature, the agent may choose to have a separate
-browser window for each customer/issue and use tabs in each window to hold
-context pages.
-
-This could become unwieldy, so Customer Service has the concepts of session and
-application tabs:
-
-### Sessions
-
-These tabs are near the top of the page, level with the site-map menu. Session
-tabs separate different issues/customers. Using the example above, they are
-analogous to different browser windows.
-
-### Application Tabs
-
-These are tabs within a session. Each session has its own set of application
-tabs. Application tabs are used to separate different context pages relevant to
-the issue that is the subject of the session. Using the example above,
-application tabs are analogous to tabs within the different browser windows.
+Agents will often have multiple items to work on simultaneously. For each item
+they may need a variety of screens to provide context. Session and application
+tabs provide an in app tab system allowing agents to manage these screens in a
+single browser tab.
 
 ## Creating a Session Template (Activity)
 
@@ -34,9 +13,11 @@ We will now create a simple session template
 
 ### Step 1: Create an Application Tab Template (optional)
 
-All session templates have an anchor tab. This tab cannot be closed and cannot
-be modified. However, we can create additional application templates that will
-open when the session opens:
+A session tab will always contain at least one tab. This is the anchor tab. The
+anchor tab cannot be closed or customised.
+
+Application tabs allow us to define additional tabs which may open when the
+session opens.
 
 1. Navigate to Admin Center -> Workspaces -> Application tab templates
 2. Select New from the command bar
@@ -154,3 +135,10 @@ work.
    - The anchor tab is a required field
 4. Select the application tab template used as the anchor tab, notice that:
    - The tab is designed to accomodate any items from the channel
+
+## Summary
+
+Session and activity tabs allow agents to manage the variety of screens that
+they may need open at any one time. We can use session and activity tabs to
+customise these screens where we see an opportunity to increase agent
+productivity.

@@ -15,7 +15,7 @@ create their own quick replies for their own use.
 
 1. Navigate to Admin Center -> Productivity -> Quick Replies
 2. Select New to access the Quick Reply Form
-3. Enter a title, e.g. {your initials} Introduction
+3. Enter a title, e.g. {your initials} Introduction Unauthenticated User
 4. Choose the locale
 
 ### Tags
@@ -23,7 +23,7 @@ create their own quick replies for their own use.
 Tags are used when searching for a quick reply. They can also be used to easily
 group quick replies.
 
-5. Enter tags, e.g. Greeting, Introduction
+5. Enter tags, e.g. Greeting, Introduction, {your name}
 
 As you start typing, a list of tags already used will be displayed that you may
 choose from. If no tags exit just blur the input and they should be added.
@@ -34,10 +34,9 @@ be used by both agents and administrators.
 ### Slugs
 
 When you write a message you can also use slugs from the Dynamic Text section.
-This form is intended for use by both administrators and agents so slug input is
-simplified here.
 
-6. Enter a short message using slugs
+6. Enter a short message using slugs, e.g. Hello, I am {FirstName{Agent}} and
+   will assist you today. Please tell me your full name.
 7. Save the quick reply
 
 ## Using Quick Replies (Activity)
@@ -48,5 +47,23 @@ We can limit quick replies to specific workstreams by associating a quick reply
 with one or more workstreams:
 
 1. Navigate to Admin Center -> Workstreams
-2. Select a workstream
+2. Select the chat workstream used in the notification section
 3. In advanced settings, add your quick reply to the workstream
+
+**If you have set-up a test page with a chat widget**
+
+4. Send a message with the chat widget
+5. Select the quick reply button in the workspace chat or type /q followed by a
+   space
+6. Find and send your custom message
+
+## Creating Personal Quick Replies as an Agent (Activity)
+
+As mentioned, agents can create their own quick replies. These are accessible
+only to the agent creating the reply but they may be shared.
+
+1. Navigate to Customer Service Workspace
+2. From the site map, select Personalisation
+3. Select New Personal quick reply from the command bar
+4. Type a message and save
+5. Add a tag, e.g. greeting or introduction

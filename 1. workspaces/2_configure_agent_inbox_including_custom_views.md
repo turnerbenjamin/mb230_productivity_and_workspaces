@@ -20,8 +20,6 @@ The suggested actions view may not be visible. This is a readonly view. To
 activate or deactivate this view you need to select the relevant setting from
 the Copilot AI Features section of the Agent Experience Profile form.
 
-I have been unable to get this view working.
-
 ### Creating a Custom Inbox View (Activity)
 
 We are going to create a custom inbox view that will list all high-priority
@@ -39,3 +37,9 @@ cases.
 
 Once this is saved, it should show as an additional view in the inbox on
 Workspaces. This can take some time to load.
+
+## Summary
+
+The inbox is a useful tool for agents allowing them to manage their workload
+with a single screen. We can customise views in the inbox to help agents to
+quickly view and prioritise their workload.

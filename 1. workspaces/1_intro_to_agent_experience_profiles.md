@@ -6,15 +6,11 @@ Workspaces allow us to create customised environments for different users
 without having to build custom apps. The mechanism used to achieve this
 customisation is **Agent Experience Profiles**.
 
-When defining Agent Experience Profiles, we will use various components
-including:
+For both the workspaces and productivity sections, most of the functionality is
+enabled using Agent Experience Profiles.
 
-- Business processes
-- Workstreams
-- Queues
-- Session Templates
-- Macros
-- Agent scripts
+In this first section you will create a basic Agent Experience Profile. As the
+course progresses you will add features to this profile.
 
 **Note**: Agent Experience profiles are not available for users in Customer
 Service Hub.
@@ -44,8 +40,8 @@ Most of the configuration options for this section can be found in this page.
 6. Optionally, enter a short description
 7. Click create
 
-Once the record is saved we need to add ourselves to the profile. We can only
-belong to one profile at a time:
+To test the profile, you will need to add yourself to it. You can only belong to
+one profile at a time:
 
 1. Find the profile you are currently associated with, e.g. Customer Service
    Trial Profile
@@ -66,3 +62,11 @@ configuration options available. These include:
 - Productivity Pane
 - Channel providers
 - Copilot AI Features
+
+We will touch on all of these features over the course of these materials.
+
+## Summary
+
+An Agent Experience Profile is an central record for agent productivity and
+workspace features. Many of these features are accessible to agents through
+association with an Agent Experience Profile.
