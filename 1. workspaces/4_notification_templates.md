@@ -63,7 +63,7 @@ predefined fields or define our own.
 
 1. Save the draft notification template
 2. Select Add Existing Notification Field
-3. Search for Comment for the user and select add
+3. Search for "Comment for the user" and select add
 
 There is a wide variety of fields we can choose from. In all cases the values of
 these fields will be populated using the Automation Dictionary.
